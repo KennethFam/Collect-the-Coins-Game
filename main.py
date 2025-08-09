@@ -42,7 +42,7 @@ class CollectTheCoins:
         images = ["coin", "monster", "robot"]
         self.__images = {}
         for image in images:
-            self.__images[image] = pygame.image.load(image + ".png")
+            self.__images[image] = pygame.image.load("game_objects/" + image + ".png")
 
     # starts a new game and resets all of the default values other than highscore
     def __new_game(self):
